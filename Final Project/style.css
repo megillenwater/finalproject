@@ -1,0 +1,146 @@
+.header {
+  
+    padding-top: 300px;
+    height: 600px;
+    background-image: url(FinalProjectPictures/25012019_153954998572504_3745823046800244736_n.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: .9;
+
+
+
+}
+
+.intro {
+    font-size: 46pt;
+    font: black;
+    opacity: 100%;
+    box-sizing: border-box;
+    font-family:cursive;
+    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 100px;
+  text-decoration: none;
+    font-size-adjust: auto;
+}
+
+.col {
+    column-count: 2;
+    float: left;
+    
+}
+
+body {
+
+    line-height: 3;
+}
+
+.leak {
+   margin-top: 40px;
+}
+
+.explore {
+    text-align: right;
+    text-decoration: none;
+    font: #333;
+    font-size: 28pt;
+}
+
+.soon {
+    font-family: cursive;
+    font-size: 56pt;
+    align-items: center;
+}
+
+h1 {
+    
+}
+
+/********Image styles********/
+
+.castle {
+height: 1000px;
+    width: 600px;
+    object-fit: contain;
+    float: right;
+    margin-right: 30px;
+}
+
+.hogsmeade {
+    height: 1000px;
+    width: 650px;
+    float: right;
+    object-fit: contain;
+    margin-right: 40px;
+    border-style: hidden;
+    border-radius: 25px;
+    
+}
+
+.butterbeer {
+    height: 900px;
+    width: 650px;
+    float: left;
+    margin-left: 40px;
+}
+
+.weasley {
+    height: 900px;
+    width: 650px;
+    float: right;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.dragon {
+    float: left;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+
+/********Media Queries********/
+
+@media (min-width: 614px) (max-width: 750px) {
+    .col {
+       column-count: 1;
+    }
+    .header {
+        max-height: 380px;
+        padding: 50px 25px 0;
+    }
+    .dragon,
+    .butterbeer, 
+    .hogsmeade,
+    .castle,
+    {
+        height: 200px;
+        width: 25%;
+        display: block;
+    }
+    .butterbeer,
+    .hogsmeade{
+       float: none;
+    }
+    ul {
+        display: inline-block;
+        justify-content: center;
+    }
+}
